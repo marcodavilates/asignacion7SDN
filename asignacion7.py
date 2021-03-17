@@ -6,4 +6,3 @@ response = requests.post(
     headers={'Authorization':'Basic ZGV2bmV0dXNlcjpDaXNjbzEyMyE='})
 payload=response.json()
 pprint(payload)
-response.raise_for_status()
