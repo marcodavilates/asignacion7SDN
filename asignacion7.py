@@ -16,4 +16,4 @@ for device in payload["response"]:
     devices.append([device["family"], device["hostname"], device["managementIpAddress"], device["lastUpdated"], device["reachabilityStatus"]])
 
 for device in devices:
-    print(device[0] + "                     "+device[1] + "                     "+device[2] + "                     "+device[3] + "                      "+device[4] + "           ")
+    print(device[0] + "                     "+device[1] + "                     "+device[2] + "                     "+device[3] + "                      "+device[4] + "            ")
