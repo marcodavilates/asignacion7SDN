@@ -17,3 +17,4 @@ for device in payload["response"]:
 
 for device in devices:
     print(device[0] + "                     "+device[1] + "                     "+device[2] + "                     "+device[3] + "                      "+device[4] + "           ")
+
